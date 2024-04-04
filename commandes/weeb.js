@@ -1,10 +1,10 @@
 const axios = require('axios');
 const fs = require('fs');
-const { france } = require("../framework/france");
+const { brand } = require("../framework/brand");
 const { writeFile } = require('fs/promises')
 
 // Commande waifu
-france({
+brand({
   nomCom: "waifu",
   categorie: "Weeb",
   reaction: "😏"
@@ -28,7 +28,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande neko
-france({
+brand({
   nomCom: "neko",
   categorie: "Weeb",
   reaction: "😺"
@@ -51,7 +51,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande shinobu
-france({
+brand({
   nomCom: "shinobu",
   categorie: "Weeb",
   reaction: "🦋"
@@ -74,7 +74,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 // Commande megumin
-france({
+brand({
   nomCom: "megumin",
   categorie: "Weeb",
   reaction: "💥"
@@ -98,7 +98,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 
 
-france({
+brand({
   nomCom: "cosplay",
   categorie: "Weeb",
   reaction: "😏"
