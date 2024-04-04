@@ -10,9 +10,10 @@
 
 ***2.`Get Session` by [`SCANING QR`](https://qr-hazel-alpha.vercel.app/md)Then Copy it***
 
-**3.If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
-  
-***4.Now [DEPLOY](https://brand-deploy.vercel.app).***
+**3.***(After scan/pair code)
+   - You will get a session ID in WhatsApp, copy the ID only.
+   - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
+   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/franceking1/Flash-Md).***
 
 
 ### CONTRIBUTIONS 
