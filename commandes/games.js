@@ -1,10 +1,10 @@
-const {france} = require("../framework/france");
+const {brand} = require("../framework/brand");
 const axios = require('axios');
 const traduire = require('../framework/traduction')
 
 
 
-france({
+brand({
     nomCom: "chifumi",
     categorie: "Games",
     reaction: "📺"
