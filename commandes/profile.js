@@ -1,9 +1,9 @@
-const {france} = require("../framework/france");
+const {brand} = require("../framework/brand");
 const conf = require("../set")
 const {jidDecode}=require("@whiskeysockets/baileys")
 
 
-france( {
+brand( {
   nomCom : "whois",
  categorie : "Fun",
    },
