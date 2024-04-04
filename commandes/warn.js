@@ -1,9 +1,9 @@
-const { france } = require('../framework/france');
+const { brand } = require('../framework/brand');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../bdd/warn')
 const s = require("../set")
 
 
-france(
+brand(
     {
         nomCom : 'warn',
         categorie : 'Group'
