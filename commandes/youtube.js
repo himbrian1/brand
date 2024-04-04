@@ -1,4 +1,4 @@
-const { france } = require("../framework/france");
+const { brand } = require("../framework/brand");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -7,7 +7,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
-france({
+brand({
   nomCom: "play",
   categorie: "Search",
   reaction: "💿"
@@ -81,7 +81,7 @@ _*DOWNLOADING...*_\n\n`
 
   
 
-france({
+brand({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
