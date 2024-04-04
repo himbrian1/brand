@@ -1,4 +1,4 @@
-const {france} = require("../framework/france");
+const {brand} = require("../framework/"brand");
 const conf = require("../set");
 const {getMessagesAndXPByJID,getBottom10Users} = require("../bdd/level");
 
@@ -82,7 +82,7 @@ module.exports = {
    get_level_exp,
 } ;
 
-france( {
+brand( {
   nomCom : "rank",
  categorie : "Fun",
    }, 
@@ -135,7 +135,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking┗━━━┓
+┏━━━┛ brand Ranking┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +211,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking ┗━━━┓
+┏━━━┛ brand Ranking ┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -243,7 +243,7 @@ france( {
 
 }) ;
 
-france( {
+brand( {
   nomCom : "toprank",
  categorie : "Fun",
    }, 
