@@ -8,7 +8,7 @@
 
 ***1.Click [`FORK`](https://github.com/himbrian1/brand/fork) and `Star ⭐ Repository` for Courage.***
 
-***2.`Get Session` by [`SCANING QR`](https://-brand-qr.onrender.com) Or [`PAIRING CODE`](https://brand-pair-85cef2fd8430.herokuapp.com/pair) Then Copy it***
+***2.`Get Session` by [`SCANING QR`](https://qr-hazel-alpha.vercel.app/md)Then Copy it***
 
 **3.If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
   
