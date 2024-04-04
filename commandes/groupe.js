@@ -1,4 +1,4 @@
-const { france } = require("../framework/france")
+const { brand } = require("../framework/brand")
 //const { getGroupe } = require("../bdd/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../bdd/antilien")
@@ -13,7 +13,7 @@ const { default: axios } = require('axios');
 
 
 
-france({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions
 
@@ -29,7 +29,7 @@ france({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, 
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *FLASH-MD* 🌟
+        ❤️ *brand* ❤️
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -60,7 +60,7 @@ france({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, 
 });
 
 
-france({ nomCom: "invite", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "invite", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
@@ -76,7 +76,7 @@ Click Here To Join :${lien}`
 
 });
 /** *nommer un membre comme admin */
-france({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -137,7 +137,7 @@ france({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, a
 //fin nommer
 /** ***demettre */
 
-france({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -248,7 +248,7 @@ france({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, as
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/france-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'FLASH-MD', // The pack name
+                pack: 'brand', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -280,7 +280,7 @@ france({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, as
 /** ***fin démettre****  **
 /** *****fin retirer */
 
-france({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only");} 
@@ -318,7 +318,7 @@ france({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async
 /** *****fin retirer */
 
 
-france({ nomCom: "del", categorie: 'Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "del", categorie: 'Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
 
@@ -390,7 +390,7 @@ france({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions)
 
  //------------------------------------antilien-------------------------------
 
- france({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ brand({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -458,7 +458,7 @@ france({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions)
 
  //------------------------------------antibot-------------------------------
 
- france({ nomCom: "antibot", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ brand({ nomCom: "antibot", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -524,7 +524,7 @@ france({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions)
 
 //----------------------------------------------------------------------------
 
-france({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, verifGroupe, verifAdmin, superUser, arg } = commandeOptions;
 
@@ -554,7 +554,7 @@ france({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions
 
 });
 
-france({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
   const { repondre, verifGroupe, superUser } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for group only"); return };
@@ -566,8 +566,7 @@ france({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) 
 
   zk.groupLeave(dest)
 });
-
-france({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -586,7 +585,7 @@ france({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions
 
 }) ;
 
-france({ nomCom: "gdesc", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "gdesc", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifAdmin } = commandeOptions;
 
@@ -605,7 +604,7 @@ france({ nomCom: "gdesc", categorie: 'Group' }, async (dest, zk, commandeOptions
 
 }) ;
 
-france({ nomCom: "revoke", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "revoke", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { arg, repondre, verifGroupe, verifAdmin } = commandeOptions;
 
@@ -624,7 +623,7 @@ if(!verifGroupe)  { repondre('This command is only allowed in groups.')} ;
 });
 
 
-france({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
 
   const { repondre, msgRepondu, verifAdmin } = commandeOptions;
 
@@ -714,7 +713,7 @@ france({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,comman
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'FLASH-MD-tag',
+          pack: 'brand-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -756,7 +755,7 @@ france({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,comman
 });
 
 
-france({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
@@ -780,7 +779,7 @@ france({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, 
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *FLASH-MD App* 』\n\n*Name :* " + appData.name +
+      "『 *brand App* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
@@ -825,7 +824,7 @@ france({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, 
 const cron = require(`../bdd/cron`) ;
 
 
-france({
+brand({
       nomCom : 'automute',
       categorie : 'Group'
   } , async (dest,zk,commandeOptions) => {
@@ -897,7 +896,7 @@ france({
   });
 
 
-  france({
+  brand({
     nomCom : 'autounmute',
     categorie : 'Group'
 } , async (dest,zk,commandeOptions) => {
@@ -974,7 +973,7 @@ france({
 
 
 
-france({
+brand({
   nomCom : 'fkick',
   categorie : 'Group'
 } , async (dest,zk,commandeOptions) => {
@@ -1007,7 +1006,7 @@ france({
 }) ;
 
 
-france({
+brand({
       nomCom : 'nsfw',
       categorie : 'Group'
 }, async (dest,zk,commandeOptions) => {
