@@ -1,11 +1,11 @@
-const {france} = require('../framework/france');
+const {brand} = require('../framework/brand');
 const fs = require("fs");
 const { exec } = require("child_process");
 
 
 const filename = `${Math.random().toString(36)}`;
 
-france (
+brand (
     {
         nomCom : 'deep',
         categorie : 'Audio-Edit',
