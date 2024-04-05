@@ -18,7 +18,7 @@
 
      # brand Bot Commands
 
-This is a list of commands supported by the Prabath-Md bot. The commands are organized in a table with the following structure:
+This is a list of commands supported by the brand bot. The commands are organized in a table with the following structure:
 
 | CMD | DESCRIPTION | AVAILABLE OR NOT | ALIAS |
 |:---:|:-----------:|:-----------------:|:-------------------------:|
