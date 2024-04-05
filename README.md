@@ -10,13 +10,18 @@
 **2.***(After scan/pair code)
    - You will get a session ID in WhatsApp, copy the ID only.
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
-   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/## Deployment Methods
----
+   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/##
+
 **3.  ***Get `SESSION ID` by [`SCANING QR`](https://suhail-md-vtsf.onrender.com/) Or [`PARING CODE`](https://sohitechs.com/blog/18/#lin=SuhailMdPair). And then `Go-to Whatapp>Three dots>Linked Devices`***
+
 **4.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI). `Optional`***
+
 **5.  ***Click [`FORK`](https://github.com/himbrian1/brand/fork) and `Star ⭐ Repository` for Courage.***
+
 **6.  ***Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).***
+
 **7.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)***
+
 **8.'get session' then deploy in ['replit'](https://replit.com/@maxamy023/Brian-Brand-1?v=1)**
 
 
