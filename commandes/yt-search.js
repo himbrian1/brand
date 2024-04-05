@@ -1,10 +1,10 @@
-const { france } = require("../framework/france");
+const { brand } = require("../framework/brand");
 const { getytlink, ytdwn } = require("../framework/ytdl-core");
 const yts = require("yt-search");
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 
-france({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk, commandeOptions) => {
+brand({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const query = arg.join(" ");
 
@@ -30,7 +30,7 @@ france({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk,
   }
 });
 
-france({
+brand({
   nomCom: "ytmp4",
   categorie: "Download",
   reaction: "🎥"
@@ -92,7 +92,7 @@ _*En cours de téléchargement...*_\n\n`
   }
 });
 
-france({
+brand({
   nomCom: "ytmp3",
   categorie: "Download",
   reaction: "💿"
