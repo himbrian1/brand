@@ -31,5 +31,6 @@ Enjoy the diverse features of the Flash-Md  to enhance your conversations and ma
 - [**Instagram**](https://instagram.com/him_.brian)
 - [**WhatsApp**](https://wa.me/255689997037)
 
-
+<div align="center">
+ <a href=
 "https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines= + share with love dont forget to support me" alt="Typing SVG" /></a>
