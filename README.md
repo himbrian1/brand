@@ -24,13 +24,15 @@ Contributions to Brand are welcome! If you have ideas for new features, improvem
 
 The Brand is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-Enjoy the diverse features of the Flash-Md  to enhance your conversations and make your WhatsApp experience more interesting!
+Enjoy the diverse features of the brand to enhance your conversations and make your WhatsApp experience more interesting!
 
 ### DEVELOPER:
 
 - [**Instagram**](https://instagram.com/him_.brian)
 - [**WhatsApp**](https://wa.me/255718617770)
 - [**Youtube**](https://youtube.com/@him_.brian1)
+- [**channel wasp](https://whatsapp.com/channel/0029VaHZvyZEKyZJFd0wmp1K)
+- [support grp](https://chat.whatsapp.com/DptSlRXMHcCAl9hYrX0Fxc)
 <div align="center">
  <a href=
 "https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=" +share with love dont forget to support me" alt="Typing SVG" /></a>
