@@ -15,7 +15,7 @@
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
    - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/brand).***
 
-**4.'get session' by then deploy in ['replit'](https://replit.com/@maxamy023/Brian-Brand-1?v=1)then copy it**
+**4.'get session' then deploy in ['replit'](https://replit.com/@maxamy023/Brian-Brand-1?v=1)then copy it**
 
 
      # brand Bot Commands
