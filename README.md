@@ -6,7 +6,8 @@
  ### SET-UP
 **📌DEPLOY ON HEROKU**
 
-***1.Click [`FORK`](https://github.com/himbrian1/brand/fork) and `Star ⭐ Repository` for Courage.***
+***1.Welcome to brand bot***
+
 **2.***(After scan/pair code)
    - You will get a session ID in WhatsApp, copy the ID only.
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
