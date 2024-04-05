@@ -1,6 +1,6 @@
   <h1 align="center"> 𝐓HE BRAND 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄  </h1>
 <div align="center">
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines= THANKS FOR CHOOSING +BRAND-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+BRIAN;RELESED+4.4.2024" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines= + THANKS FOR CHOOSING +BRAND;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+BRIAN;RELEASED+4.4.2024" alt="Typing SVG" /></a>
   </p>
 <img src="data:img "https://google.search bot.com
  ### SET-UP
@@ -13,7 +13,7 @@
 **3.***(After scan/pair code)
    - You will get a session ID in WhatsApp, copy the ID only.
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
-   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/franceking1/Flash-Md).***
+   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/brand).***
 
 
 ### CONTRIBUTIONS 
@@ -31,3 +31,5 @@ Enjoy the diverse features of the Flash-Md  to enhance your conversations and ma
 - [**Instagram**](https://instagram.com/him_.brian)
 - [**WhatsApp**](https://wa.me/255689997037)
 
+
+"https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines= + share with love dont forget to support me" alt="Typing SVG" /></a>
