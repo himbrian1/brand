@@ -10,7 +10,7 @@
 **2.***(After scan/pair code)
    - You will get a session ID in WhatsApp, copy the ID only.
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
-   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/##
+   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1)***
 
 **3.  ***Get `SESSION ID` by [`SCANING QR`](https://suhail-md-vtsf.onrender.com/) Or [`PARING CODE`](https://sohitechs.com/blog/18/#lin=SuhailMdPair). And then `Go-to Whatapp>Three dots>Linked Devices`***
 
