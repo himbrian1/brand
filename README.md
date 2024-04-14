@@ -13,6 +13,7 @@
 **3.  ***Get `SESSION ID` by [`SCANING QR`](  `Get Session` by [`SCANING QR`](https://flash-md-qr.onrender.com) Or [`PAIRING CODE`](https://flash-md-pair-85cef2fd8430.herokuapp.com/pair) Then Copy it    - You will get a session ID in WhatsApp, copy the ID only.***
 
 **📌DEPLOY ON HEROKU**
+
 **4. - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
    - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/brand)***
 
