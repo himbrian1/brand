@@ -5,14 +5,13 @@
 <img src="data:img “https://telegra.ph/file/7bfaf37fcff543a0c6e87.jpg”width="700" height="300"/>
   
     #SET-UP
-**📌DEPLOY ON HEROKU**
 
 ***1.Welcome to brand bot***
 
 **2. ***Click [`FORK`](https://github.com/himbrian1/brand/fork) and `Star ⭐ Repository` for Courage.***
 
 **3.  ***Get `SESSION ID` by [`SCANING QR`](  `Get Session` by [`SCANING QR`](https://flash-md-qr.onrender.com) Or [`PAIRING CODE`](https://flash-md-pair-85cef2fd8430.herokuapp.com/pair) Then Copy it    - You will get a session ID in WhatsApp, copy the ID only.***
-
+**📌DEPLOY ON HEROKU**
 **4. - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
    - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/himbrian1/brand)***
 
