@@ -165,24 +165,6 @@ This is a list of commands supported by the brand bot. The commands are organize
 | trivia | play trivia game | ✔️ | - |
 | mathstep | slove maths | ✔️ | - |
 | math | slove math's | ✔️ | - |
-| cal | calculate math's(calculator) | ✔️ | - |
-|   |   |   |   |
-
-
-## Additional Features
-
-- **Antidelete:** Get deleted messages | ✔️
-- **Antiviewonce:** Get viewonce image and video files | ✔️
-- **Autovoice:** Send auto voices | ✔️
-- **Autosticker:** Send auto stickers | ✔️
-- **Antibad:** Antibad | ✔️
-- **Antilink:** Antilink | ✔️
-- **Antibot:** Antibot | ✔️
-- **Autoreact:** Autoreact | ✔️
-- **custom-voice:** custom-voice | ✔️
-- **custom-sticker:** custom-sticker | ✔️
-- **custom-replys:** custom-replys | ✔️
-
 ✨ Feel free to explore and use these commands!
 
 
