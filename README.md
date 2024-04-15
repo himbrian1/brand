@@ -4,8 +4,7 @@
   </p>
 <img src="data:img “https://telegra.ph/file/7bfaf37fcff543a0c6e87.jpg
 
-        
-    #SET-UP
+  #SET-UP
 
 ***1.Welcome to brand bot***
 
