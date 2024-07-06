@@ -1,4 +1,4 @@
-  <h1 align="center"> 𝐓HE BRAND 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄  </h1>
+  <h1 align="center"> 𝐓HE BRAND 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄 BOT </h1>
 <div align="center">
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines= + THANKS FOR CHOOSING +BRAND;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+BRIAN;RELEASED+18.5.2024" alt="Typing SVG" /></a>
   </p>
@@ -41,8 +41,8 @@ Enjoy the diverse features of the brand to enhance your conversations and make y
 
     #DEVELOPER:
 
-- [**Instagram**](https://instagram.com/him_.brian)
+- [**Instagram**](https://instagram.com/b2r_nation)
 - [**WhatsApp**](https://wa.me/255718617770)
-- [**Youtube**](https://youtube.com/@him_.brian1)
+- [**Youtube**](https://youtube.com/@B2rnation)
 - [**channel wasp](https://whatsapp.com/channel/0029VaHZvyZEKyZJFd0wmp1K)
-- [support grp](https://chat.whatsapp.com/DptSlRXMHcCAl9hYrX0Fxc)
+- [support grplink(https://chat.whatsapp.com/DptSlRXMHcCAl9hYrX0Fxc)
